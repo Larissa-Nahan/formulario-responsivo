@@ -1,0 +1,54 @@
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Login</title>
+  </head>
+
+  <body>
+    <section class="conteiner-login">
+      <form class="form">
+        <h1 class="title">Faça seu login</h1>
+
+        <div class="box">
+          <label for="email-field" class="label-field">E-mail</label>
+          <input
+            type="email"
+            class="field-input"
+            id="email-field"
+            placeholder="Digite seu e-mail"
+            required
+          />
+        </div>
+
+        <div class="box">
+          <label class="label-field">Senha</label>
+          <input
+            type="password"
+            placeholder="Digite sua senha"
+            id="password-field"
+            class="field-input"
+            required
+          />
+        </div>
+
+        <div class="double-box account">
+          <div>
+            <input type="checkbox" class="checkbox-field" />
+            <span>Mantenha-me conectado</span>
+          </div>
+          <a href="./recuperar-senha.html" class="login">Esqueci minha senha</a>
+        </div>
+
+        <button class="button">Entrar</button>
+
+        <p class="account">
+          Ainda não tem uma conta?
+          <a class="login" href="../index.html">Cadastre-se</a>
+        </p>
+      </form>
+    </section>
+  </body>
+</html>
